@@ -240,7 +240,7 @@ var showHighScores = function(){
     }
     //display best score
     var display =document.createElement("p");
-    display.innerHTML += "<strong>HIGH SCORE: </strong>" + bestScore;
+    display.innerHTML += "<strong>BEST SCORE: </strong>" + bestScore;
     display.className = "displayBestScore";
     highscoreContent.appendChild(display);
 
