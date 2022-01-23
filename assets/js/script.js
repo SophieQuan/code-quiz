@@ -191,7 +191,7 @@ var endQuiz = function(){
 
     var ifrm = document.createElement("img");
     ifrm.setAttribute('id', 'ifrm');
-    ifrm.setAttribute('src', '../../assets/images/giphy.gif');
+    ifrm.setAttribute('src', '../images/giphy.gif');
 
     endContent.appendChild(ifrm);
 }
@@ -227,7 +227,7 @@ var showHighScores = function(){
     highscoreContent.appendChild(highScoreHeading);
 
     //store all score in an array
-    var playerScoresArr = []
+    var playerScoresArr = [];
     for (i = 0; i < highscores.length; i++){
         highScoreHeading.innerHTML += "<tr><td>" + highscores[i].playerName +"</td>"+"<td>"+ highscores[i].playerScore + "</td></tr>";
         console.log(highscores);
@@ -235,12 +235,15 @@ var showHighScores = function(){
     }
     //get best score
     var bestScore = Math.max.apply(Math, playerScoresArr);
-    if(playerScoresArr.length < 0){
-        display.innerHTML = "no scores"
-    }
+    
     //display best score
     var display =document.createElement("p");
-    display.innerHTML += "<strong>BEST SCORE: </strong>" + bestScore;
+    if(playerScoresArr.length <= 0){
+        display.innerHTML += "No scores"
+    }else{
+        display.innerHTML += "<strong>BEST SCORE: </strong>" + bestScore;
+    }
+    
     display.className = "displayBestScore";
     highscoreContent.appendChild(display);
 
@@ -283,5 +286,6 @@ function reload(){
 }
 loadScores();
 viewHighScores.addEventListener("click", showHighScores);
-startBtn.addEventListener("click", startQuiz);
 logo.addEventListener("click", reload);
+
+startBtn.addEventListener("click", startQuiz);
