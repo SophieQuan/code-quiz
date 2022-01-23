@@ -22,5 +22,6 @@ https://github.com/SophieQuan/code-quiz
 ![screen shot of end quiz](assets/images/screenshot-04.png?raw=true "Code Quiz end quiz")
 ![screen shot of view high score](assets/images/screenshot-05.png?raw=true "Code Quiz high score screen")
 
-## Quiz Resource
+## Quiz Resources
+Quiz questions and answers are base on proprofs.com resoures
 https://www.proprofs.com/quiz-school/playquiz/?title=web-design-final-exam_2
