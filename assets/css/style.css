@@ -14,6 +14,7 @@
 body{
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(252, 234, 225); 
 }
 main{
     width: 100%;
@@ -22,7 +23,6 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(252, 234, 225); 
 }
 
 hr{
@@ -255,7 +255,9 @@ td{
     }
 }
 @media (max-width: 768px) and (min-width: 576px) {
-    
+    main{
+        height: auto;
+    }
     .endQuiz-content form,
     .endQuiz-content p{
         padding-left: 15%;
@@ -263,6 +265,9 @@ td{
 
 }
 @media (max-width: 780px) {
+    main{
+        height: auto;
+    }
     .endQuiz-content form,
     .endQuiz-content p{
         padding-left: 0;
