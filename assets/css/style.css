@@ -327,6 +327,5 @@ td{
     .questionArea .btn:hover{
         background-color: var(--teal);
         color: var(--wheat);
-        border: none;
     }
   }
