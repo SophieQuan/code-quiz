@@ -10,10 +10,10 @@ A timed quiz on JavaScript fundamentals that stores high scores and save user in
 * JavaScript
 
 ## Website
-https://sophiequan.github.io/code-quiz/
+https://sophiequan.github.io/ready4quiz/
 
 ## Github Repository URL
-https://github.com/SophieQuan/code-quiz
+https://github.com/SophieQuan/ready4quiz
 
 ## Screenshot
 ![screen shot of landing page](assets/images/screenshot-01.png?raw=true "Code Quiz ladning page")
@@ -23,5 +23,5 @@ https://github.com/SophieQuan/code-quiz
 ![screen shot of view high score](assets/images/screenshot-05.png?raw=true "Code Quiz high score screen")
 
 ## Quiz Resources
-Quiz questions and answers are base on proprofs.com resoures
+All Quiz questions and answers are based on proprofs.com resoures
 https://www.proprofs.com/quiz-school/playquiz/?title=web-design-final-exam_2
