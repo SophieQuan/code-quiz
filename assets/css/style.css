@@ -95,6 +95,12 @@ span{
 }
 
 /* QUESTION PAGE*/
+.quizHeading{
+    font-size: 20px;
+}
+.viewHighScores{
+    font-size: 18px;
+}
 .question-content{
     background-color: yellow;
 }
@@ -265,6 +271,7 @@ td{
 
 }
 @media (max-width: 780px) {
+    
     main{
         height: auto;
     }
@@ -278,10 +285,43 @@ td{
     .endQuiz-content button {
         margin: 10px 0;
     }
+    .page-content{
+        width: 100%;
+    }
+    .quizHeading{
+        flex-direction: column;
+        text-align: left;
+        line-height: 1.5;
+
+        justify-content: flex-end;
+    }
+    .question-heading{
+        font-size: 20px;
+    }
+    .viewHighScores{
+        width: 60%;
+        font-size: 15px;
+        padding: 5px;
+
+    }
+    table{
+        width: 100%;
+    }
 }
 @media (max-width: 280px){
     .endQuiz-content form,
     .endQuiz-content p{
         font-size: 15px;
+    }
+    .viewHighScores{
+        width: 70%;
+        font-size: 15px;
+        padding: 5px;
+    }
+    .quizHeading{
+        font-size: 15px;
+    }
+    .page-content{
+        width: 100%;
     }
 }
