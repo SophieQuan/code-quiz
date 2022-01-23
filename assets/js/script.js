@@ -281,7 +281,6 @@ var loadScores = function() {
 function reload(){
     window.location.reload();
 }
-
 loadScores();
 viewHighScores.addEventListener("click", showHighScores);
 startBtn.addEventListener("click", startQuiz);

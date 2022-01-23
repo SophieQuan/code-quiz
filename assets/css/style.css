@@ -139,11 +139,7 @@ span{
     line-height: 1;
     text-indent: 20px;
 }
-.questionArea .btn:hover{
-    background-color: var(--teal);
-    color: var(--wheat)
 
-}
 
 /* END QUIZ CONTENT */
 .endQuiz-content{
@@ -260,6 +256,7 @@ td{
         margin-top: 10px;
     }
 }
+
 @media (max-width: 768px) and (min-width: 576px) {
     main{
         height: auto;
@@ -307,6 +304,7 @@ td{
     table{
         width: 100%;
     }
+
 }
 @media (max-width: 280px){
     .endQuiz-content form,
@@ -325,3 +323,10 @@ td{
         width: 100%;
     }
 }
+@media (hover: hover) and (pointer: fine){
+    .questionArea .btn:hover{
+        background-color: var(--teal);
+        color: var(--wheat);
+        border: none;
+    }
+  }
