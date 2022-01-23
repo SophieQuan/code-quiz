@@ -62,7 +62,7 @@ var time = document.querySelector(".timer");
 //initial set
     //for timer countdown
 var coundown;
-var timer = 2;
+var timer = 100;
 var questionNum = 0;
 var score = 0;
 var highscores = [];
