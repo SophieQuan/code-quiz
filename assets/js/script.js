@@ -191,7 +191,7 @@ var endQuiz = function(){
 
     var ifrm = document.createElement("img");
     ifrm.setAttribute('id', 'ifrm');
-    ifrm.setAttribute('src', '../../assets/images/giphy.GIF');
+    ifrm.setAttribute('src', '/../../assets/images/giphy.gif');
 
     endContent.appendChild(ifrm);
 }
