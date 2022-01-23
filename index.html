@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The ultimate web design quiz: trivia!</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header id="logo">
+        <h1 ><span>READY</span>4<span>QUIZ?</span></h1>
+        
+    </header>
+    <main>
+        <section class = "page-content intro">
+            <div class="introParagraph">
+                <h2>The ultimate web design quiz: trivia!</h2>
+                <p>Web designing is having an outlook of how a website should look like and having a layout on how to achieve the vision for a client. In the quiz below you will not only test your understanding when it comes to some basic terms used in web design but how to achieve the perfect website. Check it out and get to refresh your memory!</p>
+                <br/>
+                <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+                <br>
+                <p>Good luck!</p>
+                <button class= "startBtn btn">Start Quiz</button>
+            </div>
+        </section>
+        <section class="page-content quiz-content hide">
+            <div class="quizHeading">
+                <button class="viewHighScores">View High Scores</button>
+                <div class="timer"></div>
+                <div class="playerScore"></div>
+            </div>
+            <hr>
+            <div class="questionArea">
+                <h2 class="question-heading"></h2>
+                <button class="btn-a btn" value ="a" ></button>
+                <button class="btn-b btn" value ="b" ></button>
+                <button class="btn-c btn" value ="c" ></button>
+                <button class="btn-d btn" value ="d" ></button>
+            </div>
+            <hr>
+            <div class="showAnswer">
+                <p class= "incorrect"></p>
+                <p class ="correct"></p>
+                
+            </div>
+        </section>
+        <section class="endQuiz-content page-content hide"></section>
+        <section class="highscore-content page-content hide">
+            <button class="playAgain btn">Play Again</button>
+        </section>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
